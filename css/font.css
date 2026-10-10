@@ -1,0 +1,56 @@
+/* fonts.css */
+
+/* 1. Inter - The Humanist Soul */
+@font-face {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    /* THE WHY: Show text immediately */
+    src: url('../fonts/inter-v12-latin-regular.woff2') format('woff2');
+}
+
+/* 2. Roboto Mono - The Technical Mind */
+@font-face {
+    font-family: 'Roboto Mono';
+    font-style: normal;
+    font-weight: 500;
+    font-display: swap;
+    src: url('../fonts/roboto-mono-v22-latin-500.woff2') format('woff2');
+}
+
+/* etc hai niche wale */
+/* 1. The Academic Foundation */
+h1,
+h2 {
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    color: #004d40;
+    /* Deep Chemistry Green */
+}
+
+/* 2. The Student's Comfort */
+body {
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    line-height: 1.8;
+    /* Breathable spacing */
+}
+
+/* 3. The Architect's Precision */
+code,
+.formula,
+.sql-query {
+    font-family: 'JetBrains Mono', monospace;
+    font-variant-ligatures: contextual;
+    background: #fdfdfd;
+    color: #d32f2f;
+    /* Logic Red */
+}
+/* Technical Summary for the Architect Use Case Font Name Psychology Branding/Titles Playfair Display Trust,
+Tradition,
+and Authority. Explanations Inter Modernity,
+Clarity,
+and Speed. Code/Formulas JetBrains Mono Accuracy,
+Logic,
+and Focus. */
